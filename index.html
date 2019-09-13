@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>TimeZone</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Search bar -->
+        <div class="search-box">
+                <form id="form" onsubmit="handleSubmit(event);">
+                    <input type="text" id="searchCity"   placeholder="search city">
+                    <img src="./images/magnifying-glass.png">
+                </form>
+                
+                <!-- <input id="searchCity" type="submit" value="search">    -->
+        </div>
+        <div class="main-content flex-container">
+                <!-- <div class="flex-container">
+                        <div class="countryDetails">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">2pm</div>
+                        </div>
+                        <div class="countryDetails">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">1pm</div>
+                        </div>        
+                </div> 
+                 <div class="flex-container">
+                        <div class="countryDetails">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">1pm</div>
+                        </div>
+                        <div class="countryDetails right ">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">1pm</div>
+                        </div>
+                        
+                </div>
+                <div class="flex-container">
+                        <div class="countryDetails ">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">1pm</div>
+                        </div>
+                        <div class="countryDetails">
+                            <div class="countryName">Lagos</div>
+                            <div class="remove-button"><button>X</button></div>
+                            <div class="dayOfweek">monday</div>
+                            <div class="countryTime">1pm</div>
+                        </div>
+                        
+                </div> -->
+
+        </div>
+
+        <!-- <form id="form" onsubmit="handleSubmit(event);"> 
+            <input id="searchCity" type="text">
+            <input type="submit" value="search">
+        </form> -->
+        
+        
+    </div>
+
+
+    
+    <!-- <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script> -->
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="lds-dual-ring center" id="app-loader" hidden></div>
+    <div class="container">
+        <div class="heading">
+            <div class="flex-container"> -->
+                <!-- PAGE TITLE -->
+                <!-- <div>
+                    <h1>World TimeZones</h1>
+                </div> -->
+                <!-- SEARCH BOX -->
+                <!-- <div class="search-box">
+                    <input type="text" placeholder="search zone">
+                    <img src="./images/magnifying-glass.png">
+                </div>   
+            </div>
+        </div> -->
+
+        <!-- BODY -->
+        <!-- <div id="bodyContent">
+
+        
+            <div class="row1">
+                <div class="flex-container">
+                    <div class="card">
+                        <div>
+                            <span class="countryInitials">NG</span>
+                            <h1 class="countryName InlineH1">Africa/Lagos</h1>
+                            <h3 class="dayOfTheWeek"> Monday</h3>
+                            <h4 class="timeOfTheDay"> Monday</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="countryInitials">NG</span>
+                        <h1 class="countryName InlineH1">Europe/Rome</h1>
+                        <h3 class="dayOfTheWeek"> Monday</h3>
+                        <h4 class="timeOfTheDay"> Monday</h4>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="row2">
+                <div class="flex-container">
+                    <div class="card">
+                        <div>
+                            <span class="countryInitials">NG</span>
+                            <h1 class="countryName InlineH1">America/New_York</h1>
+                            <h3 class="dayOfTheWeek"> Monday</h3>
+                            <h4 class="timeOfTheDay"> Monday</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="countryInitials">NG</span>
+                        <h1 class="countryName InlineH1">America/Chicago</h1>
+                        <h3 class="dayOfTheWeek"> Monday</h3>
+                        <h4 class="timeOfTheDay"> Monday</h4>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="row3">
+                <div class="flex-container">
+                    <div class="card">
+                        <div>
+                            <span class="countryInitials">NG</span>
+                            <h1 class="countryName InlineH1">Asia/Dubai</h1>
+                            <h3 class="dayOfTheWeek"> Monday</h3>
+                            <h4 class="timeOfTheDay"> Monday</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="countryInitials">NG</span>
+                        <h1 class="countryName InlineH1">Asia/Hong_Kong</h1>
+                        <h3 class="dayOfTheWeek"> Monday</h3>
+                        <h4 class="timeOfTheDay"> Monday</h4>
+                    </div>
+                </div>   
+            </div>
+            <div class="row4">
+                <div class="flex-container">
+                    <div class="card">
+                        <div>
+                            <span class="countryInitials">NG</span>
+                            <h1 class="countryName InlineH1">Indian/Mauritius</h1>
+                            <h3 class="dayOfTheWeek"> Monday</h3>
+                            <h4 class="timeOfTheDay"> Monday</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <span class="countryInitials">NG</span>
+                        <h1 class="countryName InlineH1">Europe/Moscow</h1>
+                        <h3 class="dayOfTheWeek"> Monday</h3>
+                        <h4 class="timeOfTheDay"> Monday</h4>
+                    </div>
+                </div>   
+            </div>       
+        </div> 
+    </div> -->

@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/alarm-clock-macro-time-100733.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+/* =================================GENERAL ===========================================*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ .flex-container{
+    /* display: flex; */
+    width: 100%;
+    /* align-items: center;
+    justify-content: space-around;
+     */
+}
+
+
+/* ===============================country Details section =========================================*/
+.countryContainer{
+    margin-top: 30px; 
+    width: 50%;
+   
+    display: inline-block;
+    /* border-bottom: 1px solid #24243E;
+      */
+         
+}
+.main-content{
+    margin-top: 120px;
+}
+.countryName{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.dayOfweek{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.countryTime{
+    font-size: 20px;
+}
+
+button{
+    float: right;
+    /* padding: 5px; */
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+    background-color: #b5811d;
+    border: none;
+    
+    
+}
+.remove-button{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*.InlineH1{
+    display: inline-block;
+    padding-top: 20px;
+    
+}
+
+/* ===============================Search box ===========================================*/
+input{
+    border-radius: 10px;
+    border: 1px solid #b5811d;
+}
+input:focus{
+    outline: none;
+}
+.search-box{
+    width: 35.5vw;
+    position: relative;
+    float: right;
+    margin-top: -50px;
+    
+}
+.search-box input{
+    position: absolute;
+    padding-left: 40px;
+    line-height: 15px;
+    height: 30px;
+    width: 35.5vw;
+    background-color: transparent;
+    border: 1px solid #b5811d;
+    color: #9d9ab3;
+    
+}
+.search-box img{
+    height: 20px;
+    margin: 5px;
+    position: absolute;
+} 
+
+/* ================================= CARDS===========================================*/
+/* .card{
+    width: 45%;
+    height: 50%;
+    margin-top: 25px;
+    padding-left: 10px;
+    background-color: #24243E;
+    
+}
+.countryName{
+    padding-top: 8px;
+    color: #e0deef;
+}
+.dayOfTheWeek{
+    padding-top: 10px;
+    margin-left: 48px;
+}
+.timeOfTheDay{
+    padding-top: 10px; 
+    padding-bottom: 8px;
+    margin-left: 48px;
+}
+.countryInitials{
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #3d3d5d
+}
+
+
+@media only screen and (max-width: 550px){
+    .card{
+        width: 90%;
+    }
+    .flex-container{
+        display: block;
+    }
+    .search-box input{
+        margin-bottom: 5px;
+    }
+} */
+
+/* ================================ Loader ================================ */
+/* .lds-dual-ring {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  }
+
+.lds-dual-ring:after {
+   content: " ";
+   display: block;
+   width: 32px;
+   height: 32px;
+   margin: 1px;
+   border-radius: 50%;
+   border: 5px solid #353B48;
+   border-color: #353B48 transparent #353B48 transparent;
+   animation: lds-dual-ring 1.2s ease-in-out infinite;
+}
+
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+*/
+
+@media(max-width: 576px){
+    /* body{
+        height: 100%;
+    } */
+    .search-box{
+        width: 100%;
+        margin-bottom: 50px;
+        /* margin-top: -10px;     */
+    }
+    
+    
+    .search-box input{
+        width: 100%;
+    }
+ 
+    .countryName{
+        text-align: left;
+        margin-top: 10px;
+        font-size: 25px;
+    
+    }
+    .dayOfweek{
+        font-size: 20px;
+    }
+    .countryTime{
+        font-size: 20px;
+    }
+    .countryDetails{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .flex-container{
+        width: 100%;
+    
+
+    }
+    /* .right{
+        text-align: right;
+    } */
+    /* .mediaQueryTop{
+        margin-top: 10px;
+    } */
+   
+}
+
+/* @media(max-width: 768px){
+   
+    /* .flex-container{
+        display: block;
+    } */
+    /* .countryName{
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+} */
+ 
+
+ 
+
+
